@@ -1,0 +1,28 @@
+@keyframes planetAn {
+    from{
+        transform: rotate(deg);
+    }
+    to{
+        transform: rotate(160deg);
+    }
+}
+
+@keyframes bottomIn {
+    from {
+        transform: translate(500px);
+    }
+    to {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
